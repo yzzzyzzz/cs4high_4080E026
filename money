@@ -1,0 +1,80 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "python1.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/yzzzyzzz/cs4high_4080E026/blob/master/money\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "HhhhKPF0t1o5",
+        "colab_type": "text"
+      },
+      "source": [
+        "# 買東西\n",
+        "\n",
+        "打折"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "OV0Lgr3Irjxm",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        },
+        "outputId": "cc5bcb45-b3f2-484a-e9d9-1dac31f26749"
+      },
+      "source": [
+        "money=int(input(\"請輸入購物金額:\"))   #輸入購物金額\n",
+        "\n",
+        "if(money>=10000):     #如果金額大於等於10000時，會出現以下狀況\n",
+        "\n",
+        "  if(money>=100000):      #如果金額大於等於100000時,打八折優惠\n",
+        "    print(money*0.85,end=\"元\\n\") #八折\n",
+        "  elif(money>=50000):     #如果金額大於等於50000時,打八五折優惠\n",
+        "    print(money*0.85,end=\"元\\n\") #八五折\n",
+        "  elif(money>=30000):     #如果金額大於等於30000時,打九折優惠\n",
+        "    print(money*0.9,end=\"元\\n\") #九折\n",
+        "  else:  #如果是30000以下10000以上金額,打九五折\n",
+        "    print(money*0.95,end=\"元\\n\") #九五折  \n",
+        "  \n",
+        "else:    #如果未到達10000,則不打折\n",
+        "  print(money,end=\"元\\n\") #未打折"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入購物金額:20000\n",
+            "19000.0元\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
