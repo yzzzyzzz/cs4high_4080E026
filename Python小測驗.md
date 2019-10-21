@@ -1,6 +1,5 @@
 # 程式閱讀題
 ```
-```
 考卷:
 1.print("3*2*(17-9)")會印出甚麼結果:
 (A)ant   (B)abcdef  (C)出現錯誤,無法印出  (D)3*2*(17-9)
@@ -23,8 +22,6 @@ print(word.replace("r", "nnnnnnnn"))
 word = "bosslslzzzsisss"
 print(word.replace("s", "d",5))
 (A)boddldlzzzdidss   (B)bosslslzzzsisss  (C)boddldlzzzdiddd  (D)出現錯誤,無法印出
-```
-
 
 ```
 # 程式設計題
