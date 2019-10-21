@@ -28,7 +28,24 @@ print(word.replace("s", "d",5))
 ```
 for 迴圈(loop)的技巧
 1.使用for 迴圈(loop)計算1+2+3+.....100
+
+sum=0
+
+for x in range(1,100):
+#   print("Yz")
+    sum +=x
+    
+    print(sum)
+    
 2.使用for 迴圈(loop)計算1+3+5+7.....+99
+sum=0
+
+for x in range(1,100,2):
+#   print("Yz")
+    sum +=x
+    
+    print(sum)
+
 
 while 迴圈(loop)的技巧
 3.使用for 迴圈(loop)計算1+2+3+.....100
