@@ -43,28 +43,16 @@ while index < len(names):
 ```
 for 迴圈(loop)的技巧
 1.使用for 迴圈(loop)計算1+2+3+.....100
-
-sum=0
-
-for x in range(1,100):
-#   print("Yz")
-    sum +=x
-    
-    print(sum)
-    
+答案:4950
 2.使用for 迴圈(loop)計算1+3+5+7.....+99
-sum=0
-
-for x in range(1,100,2):
-    sum +=x
-    
-    print(sum)
-    
+答案:2402
 3.使用for 迴圈(loop)計算1*3*5*7.....*99
+答案:27529213532835651545259729751524430639300973035816196098326553772152587890625
 
 while 迴圈(loop)的技巧
-4.使用for 迴圈(loop)計算1+2+3+.....100
-5.使用for 迴圈(loop)計算1+3+5+7.....+99
+4.使用while 迴圈(loop)計算1+2+3+.....100
+5.使用while 迴圈(loop)計算1+3+5+7.....+99
+6.使用while 迴圈(loop計算1*3*5*7.....*99
 ```
 # 程式設計題解答(有各種寫法,找寫最快的分數最高)
 
@@ -76,15 +64,17 @@ for x in range(1,101):
   sum +=x
   
 print(sum)
+答案:4950
 ```
 ### 使用for 迴圈(loop)計算1+3+5+7.....+99
 ```
 sum=0
 
-for x in range(1,101,2):
+for x in range(1,99,2):
   sum +=x
   
 print(sum)
+答案:2402
 ```
 ### 使用for 迴圈(loop)計算
 ```
@@ -95,6 +85,47 @@ total=1
 
 for x in range(1,101,2):
   total *=x
+  
+print(total)
+答案:27529213532835651545259729751524430639300973035816196098326553772152587890625
+```
+
+### 使用while 迴圈(loop)計算1+2+3+.....100
+```
+sum = 0
+x=1
+
+while x < 101:
+  sum +=x
+  x = x+1
+  # x += 1
+  
+print(sum)
+```
+### 使用while 迴圈(loop)計算1+3+5+7.....+99
+```
+sum = 0
+x=1
+
+while x < 101:
+  sum +=x
+  x = x+2
+  # x += 1
+  
+print(sum)
+```
+
+### 使用while 迴圈(loop)計算
+```
+1*3*5*7.....*99
+```
+```
+total = 1
+x=1
+
+while x < 101:
+  total *=x
+  x = x+2     # x += 2
   
 print(total)
 ```
