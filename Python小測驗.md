@@ -23,6 +23,21 @@ word = "bosslslzzzsisss"
 print(word.replace("s", "d",5))
 (A)boddldlzzzdidss   (B)bosslslzzzsisss  (C)boddldlzzzdiddd  (D)出現錯誤,無法印出
 
+7根據底下程式,下列敘述何者為非?[複選題]
+
+names = ['y', 'z']
+index = 0
+
+while index < len(names):
+    name = names[index]
+    print(name)
+    index = index + 1
+    
+(A)len(names)=2  ✓
+(B)names[1]是 y 
+(C)程式執行完後,index最後為2 ✓
+(D)如果把條件改成 index > len(names),中index最後為2
+
 ```
 # 程式設計題
 ```
@@ -41,7 +56,6 @@ for x in range(1,100):
 sum=0
 
 for x in range(1,100,2):
-#   print("Yz")
     sum +=x
     
     print(sum)
